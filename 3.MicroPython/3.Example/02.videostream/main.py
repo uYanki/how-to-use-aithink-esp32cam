@@ -52,7 +52,8 @@ if initCamera():
     camera.contrast(0)  # 对比度[-2,2]（默认0）.2: highcontrast,高对比度
     camera.quality(10)  # 质量[10-64] 数字越小质量越高
 
-    connectWiFi('老八父亲的wifi', 'shengyi318')  # 连接 WiFi
+    # connectWiFi('老八父亲的wifi', 'shengyi318')  # 连接 WiFi
+    connectWiFi('uyk', '12345678')  # 连接 WiFi
 
     udp = socket.socket(socket.AF_INET, socket.SOCK_DGRAM, 0)
     try:
